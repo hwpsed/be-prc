@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="LaundryApp" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^E:\\CN7\\SWD391\\LaundryApp\(v1\.1\)\\LaundryApp\\obj\\Release\\netcoreapp3\.1\\PubTmp\\Out\\$" />
+  </parameter>
+  <parameter name="LaundryApp.Data.ApplicationDbContext" description="" value="Data Source=tcp:laundryappdbserver.database.windows.net,1433;Initial Catalog=LaundryApp_db;User Id=anhplp@laundryappdbserver;Password=Abc123456789;MultipleActiveResultSets=True" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^E:\\CN7\\SWD391\\LaundryApp\(v1\.1\)\\LaundryApp\\obj\\Release\\netcoreapp3\.1\\PubTmp\\EFSQLScripts\\LaundryApp\.Data\.ApplicationDbContext\.sql$" />
+  </parameter>
+</parameters>

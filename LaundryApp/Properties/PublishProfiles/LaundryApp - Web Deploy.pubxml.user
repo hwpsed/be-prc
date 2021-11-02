@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAMrSxq3Uthk6s/LWPeR+YeAAAAAACAAAAAAAQZgAAAAEAACAAAAC5LIvWhprWhVXIZ3BvHdwJMLX/xxXglNPaPwu3ulSACAAAAAAOgAAAAAIAACAAAACAgRbTULMOWiwGD3WaTbuV9SlOsGI72W0UfCpwE+PvZ4AAAAAIOWqdntH2iPRXlg/RaDRZCGpwDZpe8tk5Wu0Lu7r1Wx02hKIILSdXQHW6qKkJaVxfJA1lR/mwb3Y/rcS0kGDxMa+MBqa6fO2eKVf7OAyUbt8sKKEs+OUUtETxf40iErAK+2o9u9j7ozGNTQEqFDNHrT3DeQL0Iki+aPN1tFT1RkAAAABZsrQTCefsM/SFUDIBuDK5thWSx8VcewmfopPGGnNcEWfOwasXOODMcztX5LDKs8o+QYRq+BhjSmWzVHYNti2K</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <EFMigrations Include="LaundryApp.Data.ApplicationDbContext">
+      <Value>Data Source=tcp:laundryappdbserver.database.windows.net,1433%3bInitial Catalog=LaundryApp_db%3bUser Id=anhplp%40laundryappdbserver%3bPassword=Abc123456789%3bMultipleActiveResultSets=True</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
